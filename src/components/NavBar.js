@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import '../styles/navBar.css';
+import CartWidget from './CartWidget';
 
 
 class NavBar extends Component {
@@ -9,7 +10,8 @@ class NavBar extends Component {
         <a class="active" href= "#home">Maliba Shop</a>
         <a href="#productos">Productos</a>
         <a href="#trabajos">Trabajos realizados </a>
-        <a href="#contacto">Contacto</a>       
+        <a href="#contacto">Contacto</a> 
+        <CartWidget/>      
 
       </nav>
 
