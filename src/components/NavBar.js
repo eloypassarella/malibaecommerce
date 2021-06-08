@@ -7,11 +7,13 @@ class NavBar extends Component {
     render(){
       return (
       <nav class="topnav">
-        <a class="active" href= "#home">Maliba Shop</a>
-        <a href="#productos">Productos</a>
-        <a href="#trabajos">Trabajos realizados </a>
-        <a href="#contacto">Contacto</a> 
-        <CartWidget/>      
+        <div class="active padding" href= "#home">Maliba Shop</div>
+        <div class="padding">Productos</div>
+        <div class="padding">Trabajos realizados </div>
+        <div class="padding" >Contacto</div> 
+        <div class="end">
+        <CartWidget/>
+        </div>
 
       </nav>
 
