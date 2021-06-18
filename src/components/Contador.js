@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/contador.css'
+import Item from './ItemList.js';
 
 const Contador = ()=>{
 
@@ -20,8 +21,8 @@ const Contador = ()=>{
     }
 
     return (
-        <div class="caja">
-            <h3>MATE IMPERIAL</h3>
+        <div>
+            
             <button class="agregar" onClick={aumentarProducto}>+</button>
             <p class="clicks">{`${clicks}`}</p>
             <button class="quitar" onClick={quitarProductos}>-</button>
