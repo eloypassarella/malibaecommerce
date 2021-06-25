@@ -5,11 +5,13 @@ import ItemListContainer from "./components/ItemListContainer";
 
 
 
+
 function App() {
   return (
     <div className="App">
       <NavBar />
       <ItemListContainer greeting= "Bienvenidos a nuestro E-Commerce"/>
+      
     </div>
   );
 }

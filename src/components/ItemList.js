@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/contador.css';
 import Contador from './Contador';
+import Item from './Item.js'
 
 
 function ItemList (){
@@ -19,6 +20,7 @@ function ItemList (){
                     <p id={index}>{post.producto}</p>
                     <p id={index}>{post.stock}</p>
                     <Contador/>
+                    <Item/>
                     
                 </div>})
             }
