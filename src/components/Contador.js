@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/contador.css'
-import Item from './ItemList.js';
+
 
 const Contador = ()=>{
 
