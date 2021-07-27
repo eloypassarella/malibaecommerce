@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from "../components/NavBar"
 import Home from '../pages/Home'
 import Productos from'../pages/Productos'
+import ItemDetail from'../pages/ItemDetail'
 import Trabajos from'../pages/Trabajos'
 import Contacto from'../pages/Contacto'
 import { BrowserRouter as Router, Route,Switch } from 'react-router-dom';
@@ -13,6 +14,7 @@ return (
         <Switch>
             <Route path exact="/" component= {Home}/>
             <Route path="/Productos" component={Productos}/>
+            <Route path exact="/Productos/ItemDetail/:id" children={<ItemDetail/>}/>
             <Route path="/Trabajos"component={Trabajos}/>
             <Route path="/Contacto"component={Contacto}/>
         </Switch>

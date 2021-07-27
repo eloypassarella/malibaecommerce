@@ -1,9 +1,10 @@
 import React from 'react'
+import ItemListContainer from '../components/ItemListContainer'
 
 function Home () {
     return(
         <div>
-            Hola Soy Home
+            <ItemListContainer greeting="Bienvenido al Ecommerce de Maliba"/>
         </div>
     )
 }
